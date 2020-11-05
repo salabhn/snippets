@@ -11,6 +11,9 @@
 		> username: *demouser*
 		> password: *password#1*
 ## Available APIs
+### Authentication
+	- Login: > http://127.0.0.1:8000/api/token/
+	- Refresh: > http://127.0.0.1:8000/api/token/refresh/
 ### Snippets
 	- Overview: > http://127.0.0.1:8000/api/overview/
 	- List: > http://127.0.0.1:8000/api/snippets/
